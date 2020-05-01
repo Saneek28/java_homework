@@ -2,10 +2,13 @@ package ru.sogaz.java.sandbox;
 
 public class Square {
   public double l;
+
   public Square(double l) {
-    this.l  = l;
+    this.l = l;
   }
-  public  double area() {
+
+  public double area() {
     return this.l * this.l;
 
+  }
 }
